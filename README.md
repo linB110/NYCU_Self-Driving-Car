@@ -13,6 +13,8 @@
 2. Compute radar statistics
 3. Compute vehicle relative speed and visualize on RViZ
 
+video : https://www.youtube.com/watch?v=OLgZyU0Gsyk
+
 ---
 
 ## HW3

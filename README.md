@@ -30,7 +30,9 @@ video : https://www.youtube.com/watch?v=OLgZyU0Gsyk
 ---
 
 ## HW5 
-1. EKF localization 
+1. EKF localization
+
+video : https://www.youtube.com/watch?v=P4mCeMD7F6I
 
 ---
 

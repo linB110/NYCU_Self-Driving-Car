@@ -30,8 +30,9 @@ video : https://www.youtube.com/watch?v=OLgZyU0Gsyk
 ---
 
 ## HW5 
-1. EKF localization in nuscenes dataset
+1. EKF localization 
 
 ---
 
 ## Midterm1 
+localization contest

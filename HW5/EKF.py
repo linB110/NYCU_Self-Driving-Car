@@ -46,7 +46,7 @@ class ExtendedKalmanFilter:
     
     def compute_jacobian_A(self, pose, u):
         """
-        Motion Model 對 state [x, y, yaw] 的 Jacobian
+        Jacobian to Motion Model with state [x, y, yaw]  
         
         ∂f/∂x =
         [1,  0,  -u_x*sin(yaw) - u_y*cos(yaw)]

@@ -25,12 +25,12 @@ class ExtendedKalmanFilter:
     
     def motion_model(self, pose, u):
         """
-        非線性 Motion Model
+        Nonlinear Motion Model
         
         input:
             u = [u_x, u_y, u_yaw]  <- displacement in LOCAL frame
         
-        Global frame 更新：
+        Global frame update：
             x_new   = x   + u_x * cos(yaw) - u_y * sin(yaw)
             y_new   = y   + u_x * sin(yaw) + u_y * cos(yaw)
             yaw_new = yaw + u_yaw
@@ -68,8 +68,8 @@ class ExtendedKalmanFilter:
         """
         EKF Prediction Step
         
-        1. 用非線性 motion model 更新 state
-        2. 用 Jacobian A 更新 covariance
+        1. update state from nonlinear motion model
+        2. update covariance with Jacobian
         
         Args:
             u: [u_x, u_y, u_yaw] in LOCAL frame
@@ -91,7 +91,7 @@ class ExtendedKalmanFilter:
     
     def observation_model(self, pose):
         """
-        觀測模型：GPS 只量測 global x, y
+        observation：GPS -> global x, y
         h(x) = [x, y]
         """
         return self.C @ pose
@@ -100,7 +100,6 @@ class ExtendedKalmanFilter:
         """
         EKF Update Step (GPS)
         
-        Observation model 是線性的：
             h(x) = C * x = [x, y]
             Jacobian C = [[1, 0, 0],
                           [0, 1, 0]]

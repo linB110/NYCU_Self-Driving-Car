@@ -38,3 +38,6 @@ video : https://www.youtube.com/watch?v=P4mCeMD7F6I
 
 ## Midterm1 
 localization contest
+
+1. Track 1 : https://www.youtube.com/watch?v=Sj8lgQgz70w
+2. Track 2 : https://www.youtube.com/watch?v=Fcwhu37uNqs

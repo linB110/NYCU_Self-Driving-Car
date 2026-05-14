@@ -36,8 +36,21 @@ video : https://www.youtube.com/watch?v=P4mCeMD7F6I
 
 ---
 
-## Midterm1 
+## Midterm 1
 localization contest
 
 1. Track 1 : https://www.youtube.com/watch?v=Sj8lgQgz70w
 2. Track 2 : https://www.youtube.com/watch?v=Fcwhu37uNqs
+
+---
+
+## Midterm 2
+LiDAR SLAM + 3DGS contest
+
+1. Track 1 : https://youtu.be/QceK13J-06A
+2. Track 1 + visualization : https://youtu.be/91NFgGpboa8
+3. Track 2 : https://youtu.be/_RR64HkEoKM
+4. Track 2 + visualization : https://youtu.be/91NFgGpboa8
+
+---
+

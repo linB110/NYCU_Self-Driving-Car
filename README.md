@@ -51,6 +51,7 @@ LiDAR SLAM + 3DGS contest
 2. Track 1 + visualization : https://youtu.be/91NFgGpboa8
 3. Track 2 : https://youtu.be/_RR64HkEoKM
 4. Track 2 + visualization : https://youtu.be/91NFgGpboa8
+5. Track 3 : https://youtu.be/hCRNPvDfSSY
 
 ---
 
